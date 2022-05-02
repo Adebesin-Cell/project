@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1 class="header">Select an experience that interests you</h1>
+      <div class="card__wrapper">
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image-box">
+            <img
+              src="./assets/images/image.png"
+              alt="image"
+              class="card__image"
+            />
+          </div>
+          <div class="card__overlay">&nbsp;</div>
+          <div class="card__body">
+            <hr class="card__line" />
+            <h3 class="card__header">Business Administration</h3>
+            <p class="card__paragraph">~ 94 Opportunities</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script>
+      $(".card__wrapper").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        prevArrow: `<span class="slick-prev btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg></span>`,
+        nextArrow: `<span class="slick-next btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>`,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
